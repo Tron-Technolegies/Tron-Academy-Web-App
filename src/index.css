@@ -1,0 +1,20 @@
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.outfit-custom {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*colors*/
+:root {
+  --primary-color: #c441f4;
+  --secondary-color: #b67bba;
+  --tron-light-color: #f4e1fdab;
+}
+
+body{
+  background-color: #F7F6FB;
+}
