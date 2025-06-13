@@ -10,11 +10,18 @@
 
 /*colors*/
 :root {
-  --primary-color: #c441f4;
-  --secondary-color: #b67bba;
+  --tron-primary-color: #c441f4;
+  --tron-secondary-color: #b67bba;
   --tron-light-color: #f4e1fdab;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
   background-color: #F7F6FB;
+  font-family: "Outfit", sans-serif;
 }
