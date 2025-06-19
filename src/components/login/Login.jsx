@@ -15,11 +15,13 @@ const Login = () => {
       email: "aswinbinaj@gmail.com",
       password: "aswin123",
       role: "teacher",
+      name: "Aswin", // Added name field
     },
     {
       email: "yedhu@gmail.com",
       password: "yedhu123",
       role: "student",
+      name: "Yedhu", // Added name field
     },
   ];
 

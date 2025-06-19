@@ -1,0 +1,100 @@
+.teacher-navbar {
+  height: 10vh;
+  width: 100%;
+  background-color: #f4e1fd70;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.teacher-nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.teacher-nav-logo img {
+  height: 58px;
+  width: 40px;
+  margin-left: 5%;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7b2cbf;
+}
+
+.teacher-nav-links ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 18px;
+  list-style: none;
+  color: #666;
+}
+
+.teacher-nav-links li {
+  cursor: pointer;
+}
+
+.teacher-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-notification-icon {
+  font-size: 24px;
+  color: #666;
+}
+
+/* Styles for the user profile section */
+.teacher-nav-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #666;
+}
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logout-button svg {
+  font-size: 16px;
+}
+
+
+.teacher-nav-links a{
+  text-decoration: none;
+  
+}

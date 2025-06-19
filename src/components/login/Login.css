@@ -76,6 +76,9 @@
   color: white;
   font-size: 18px;
 }
+.error-msg {
+  color: red;
+}
 
 /*mediaQueries*/
 @media (max-width: 768px) {
