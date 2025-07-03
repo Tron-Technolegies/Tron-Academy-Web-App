@@ -2,9 +2,11 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import TeacherNavbar from "../components/Navbars/TeacherNavbar";
 import StudentsList from "../components/teacher/StudentsList";
+import useGetUserInfo from "../hooks/auth/useGetUserInfo";
 
 const Teacher = () => {
-  return (
+  const {loading} = useGetUserInfo()
+  return loading ? <p>Loading...</p> :(
     <div>
       <TeacherNavbar />
 
